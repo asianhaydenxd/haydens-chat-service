@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -pedantic -std=c17
 INCLUDE = -Iinclude
-LIBS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -llua
+LIBS = 
 
 SRC = $(wildcard src/*.c) $(wildcard src/**/*.c)
 OBJ = $(SRC:.c=.o)
